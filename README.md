@@ -2,6 +2,7 @@
 
 WordWise 是一个 SwiftUI iOS 背单词 App MVP。当前版本包含：
 
+- 内置 TOEIC 商务、办公、差旅、财务和客服场景词库
 - 单词卡片学习流程
 - 显示释义和例句翻译
 - “认识 / 不认识”反馈
@@ -14,6 +15,7 @@ WordWise 是一个 SwiftUI iOS 背单词 App MVP。当前版本包含：
 ## 目录
 
 - `Sources/WordWiseCore`: 可测试的核心模型、复习算法、进度存储
+- `Sources/WordWiseCore/TOEICVocabulary.swift`: TOEIC 词库数据
 - `Tests/WordWiseCoreTests`: Swift Testing 单元测试
 - `App/WordWiseApp`: SwiftUI iOS App 源码
 - `App/WordWiseAppUITests`: XCUITest 示例

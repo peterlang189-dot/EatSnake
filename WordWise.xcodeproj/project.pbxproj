@@ -14,6 +14,7 @@
 		010000000000000000000005 /* SampleVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000105 /* SampleVocabulary.swift */; };
 		010000000000000000000006 /* StudyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000106 /* StudyStore.swift */; };
 		010000000000000000000007 /* FileProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000107 /* FileProgressStore.swift */; };
+		010000000000000000000008 /* TOEICVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000108 /* TOEICVocabulary.swift */; };
 		010000000000000000000011 /* WordWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000111 /* WordWiseApp.swift */; };
 		010000000000000000000012 /* StudyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000112 /* StudyViewModel.swift */; };
 		010000000000000000000013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000113 /* ContentView.swift */; };
@@ -50,6 +51,7 @@
 		010000000000000000000105 /* SampleVocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleVocabulary.swift; sourceTree = "<group>"; };
 		010000000000000000000106 /* StudyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyStore.swift; sourceTree = "<group>"; };
 		010000000000000000000107 /* FileProgressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProgressStore.swift; sourceTree = "<group>"; };
+		010000000000000000000108 /* TOEICVocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOEICVocabulary.swift; sourceTree = "<group>"; };
 		010000000000000000000111 /* WordWiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordWiseApp.swift; sourceTree = "<group>"; };
 		010000000000000000000112 /* StudyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyViewModel.swift; sourceTree = "<group>"; };
 		010000000000000000000113 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				010000000000000000000103 /* ReviewEngine.swift */,
 				010000000000000000000104 /* StudySession.swift */,
 				010000000000000000000105 /* SampleVocabulary.swift */,
+				010000000000000000000108 /* TOEICVocabulary.swift */,
 				010000000000000000000106 /* StudyStore.swift */,
 				010000000000000000000107 /* FileProgressStore.swift */,
 			);
@@ -289,6 +292,7 @@
 				010000000000000000000003 /* ReviewEngine.swift in Sources */,
 				010000000000000000000004 /* StudySession.swift in Sources */,
 				010000000000000000000005 /* SampleVocabulary.swift in Sources */,
+				010000000000000000000008 /* TOEICVocabulary.swift in Sources */,
 				010000000000000000000006 /* StudyStore.swift in Sources */,
 				010000000000000000000007 /* FileProgressStore.swift in Sources */,
 			);

@@ -15,6 +15,7 @@
 		010000000000000000000006 /* StudyStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000106 /* StudyStore.swift */; };
 		010000000000000000000007 /* FileProgressStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000107 /* FileProgressStore.swift */; };
 		010000000000000000000008 /* TOEICVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000108 /* TOEICVocabulary.swift */; };
+		010000000000000000000009 /* SnakeGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000109 /* SnakeGame.swift */; };
 		010000000000000000000011 /* WordWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000111 /* WordWiseApp.swift */; };
 		010000000000000000000012 /* StudyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000112 /* StudyViewModel.swift */; };
 		010000000000000000000013 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000113 /* ContentView.swift */; };
@@ -22,6 +23,7 @@
 		010000000000000000000015 /* WordCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000115 /* WordCardView.swift */; };
 		010000000000000000000016 /* StudyControlsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000116 /* StudyControlsView.swift */; };
 		010000000000000000000017 /* CompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000117 /* CompletionView.swift */; };
+		010000000000000000000018 /* SnakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000118 /* SnakeViewModel.swift */; };
 		010000000000000000000021 /* WordWiseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 010000000000000000000202 /* WordWiseCore.framework */; };
 		010000000000000000000031 /* WordWiseAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010000000000000000000131 /* WordWiseAppUITests.swift */; };
 /* End PBXBuildFile section */
@@ -52,6 +54,7 @@
 		010000000000000000000106 /* StudyStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyStore.swift; sourceTree = "<group>"; };
 		010000000000000000000107 /* FileProgressStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileProgressStore.swift; sourceTree = "<group>"; };
 		010000000000000000000108 /* TOEICVocabulary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOEICVocabulary.swift; sourceTree = "<group>"; };
+		010000000000000000000109 /* SnakeGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeGame.swift; sourceTree = "<group>"; };
 		010000000000000000000111 /* WordWiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordWiseApp.swift; sourceTree = "<group>"; };
 		010000000000000000000112 /* StudyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyViewModel.swift; sourceTree = "<group>"; };
 		010000000000000000000113 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -59,6 +62,7 @@
 		010000000000000000000115 /* WordCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCardView.swift; sourceTree = "<group>"; };
 		010000000000000000000116 /* StudyControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyControlsView.swift; sourceTree = "<group>"; };
 		010000000000000000000117 /* CompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionView.swift; sourceTree = "<group>"; };
+		010000000000000000000118 /* SnakeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeViewModel.swift; sourceTree = "<group>"; };
 		010000000000000000000131 /* WordWiseAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordWiseAppUITests.swift; sourceTree = "<group>"; };
 		010000000000000000000201 /* WordWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		010000000000000000000202 /* WordWiseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WordWiseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +121,7 @@
 				010000000000000000000104 /* StudySession.swift */,
 				010000000000000000000105 /* SampleVocabulary.swift */,
 				010000000000000000000108 /* TOEICVocabulary.swift */,
+				010000000000000000000109 /* SnakeGame.swift */,
 				010000000000000000000106 /* StudyStore.swift */,
 				010000000000000000000107 /* FileProgressStore.swift */,
 			);
@@ -137,6 +142,7 @@
 			children = (
 				010000000000000000000111 /* WordWiseApp.swift */,
 				010000000000000000000112 /* StudyViewModel.swift */,
+				010000000000000000000118 /* SnakeViewModel.swift */,
 				010000000000000000000113 /* ContentView.swift */,
 				010000000000000000000716 /* Views */,
 			);
@@ -293,6 +299,7 @@
 				010000000000000000000004 /* StudySession.swift in Sources */,
 				010000000000000000000005 /* SampleVocabulary.swift in Sources */,
 				010000000000000000000008 /* TOEICVocabulary.swift in Sources */,
+				010000000000000000000009 /* SnakeGame.swift in Sources */,
 				010000000000000000000006 /* StudyStore.swift in Sources */,
 				010000000000000000000007 /* FileProgressStore.swift in Sources */,
 			);
@@ -304,6 +311,7 @@
 			files = (
 				010000000000000000000011 /* WordWiseApp.swift in Sources */,
 				010000000000000000000012 /* StudyViewModel.swift in Sources */,
+				010000000000000000000018 /* SnakeViewModel.swift in Sources */,
 				010000000000000000000013 /* ContentView.swift in Sources */,
 				010000000000000000000014 /* ProgressHeaderView.swift in Sources */,
 				010000000000000000000015 /* WordCardView.swift in Sources */,
@@ -340,8 +348,8 @@
 		010000000000000000001002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ALWAYS_SEARCH_USER_PATHS = NO; CLANG_ENABLE_MODULES = YES; CURRENT_PROJECT_VERSION = 1; DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym"; ENABLE_TESTABILITY = NO; IPHONEOS_DEPLOYMENT_TARGET = 17.0; SDKROOT = iphoneos; SWIFT_VERSION = 6.0;}; name = Release; };
 		010000000000000000001101 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGNING_ALLOWED = NO; DEFINES_MODULE = YES; DYLIB_INSTALL_NAME_BASE = "@rpath"; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.wordwise.core; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SKIP_INSTALL = YES; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug; };
 		010000000000000000001102 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGNING_ALLOWED = NO; DEFINES_MODULE = YES; DYLIB_INSTALL_NAME_BASE = "@rpath"; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.wordwise.core; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SKIP_INSTALL = YES; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Release; };
-		010000000000000000001201 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = WordWise; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.wordwise; PRODUCT_NAME = WordWise; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug; };
-		010000000000000000001202 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = WordWise; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.wordwise; PRODUCT_NAME = WordWise; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Release; };
+		010000000000000000001201 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = Snake; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.wordwise; PRODUCT_NAME = WordWise; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug; };
+		010000000000000000001202 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES; CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = Snake; INFOPLIST_KEY_UILaunchScreen_Generation = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = com.example.wordwise; PRODUCT_NAME = WordWise; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Release; };
 		010000000000000000001301 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.wordwise.uitests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = WordWiseApp;}; name = Debug; };
 		010000000000000000001302 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGNING_ALLOWED = NO; GENERATE_INFOPLIST_FILE = YES; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = com.example.wordwise.uitests; PRODUCT_NAME = "$(TARGET_NAME)"; SDKROOT = iphoneos; SUPPORTED_PLATFORMS = "iphoneos iphonesimulator"; SWIFT_VERSION = 6.0; TARGETED_DEVICE_FAMILY = "1,2"; TEST_TARGET_NAME = WordWiseApp;}; name = Release; };
 /* End XCBuildConfiguration section */

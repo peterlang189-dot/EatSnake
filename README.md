@@ -1,7 +1,9 @@
 # WordWise
 
-WordWise 是一个 SwiftUI iOS 背单词 App MVP。当前版本包含：
+WordWise 是一个 SwiftUI iOS App 工程。当前版本的 iOS 首屏是贪吃蛇小游戏，同时保留可测试的背单词核心模块。当前版本包含：
 
+- 贪吃蛇棋盘、方向控制、开始/暂停、重开、分数和最佳分
+- 贪吃蛇核心规则测试：吃食物、增长、撞墙、撞身体、禁止反向
 - 内置 TOEIC 商务、办公、差旅、财务和客服场景词库
 - 单词卡片学习流程
 - 显示释义和例句翻译
@@ -15,6 +17,7 @@ WordWise 是一个 SwiftUI iOS 背单词 App MVP。当前版本包含：
 ## 目录
 
 - `Sources/WordWiseCore`: 可测试的核心模型、复习算法、进度存储
+- `Sources/WordWiseCore/SnakeGame.swift`: 贪吃蛇核心规则
 - `Sources/WordWiseCore/TOEICVocabulary.swift`: TOEIC 词库数据
 - `Tests/WordWiseCoreTests`: Swift Testing 单元测试
 - `App/WordWiseApp`: SwiftUI iOS App 源码

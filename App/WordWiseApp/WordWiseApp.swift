@@ -3,7 +3,7 @@ import WordWiseCore
 
 @main
 struct WordWiseApp: App {
-    @StateObject private var model = StudyViewModel()
+    @StateObject private var model = SnakeViewModel()
 
     var body: some Scene {
         WindowGroup {
